@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>全局变量</title>
+	<script>
+		//同样是刚刚的情况，如果把变量定义在所有函数外围的话，就可以起作用了，在任何地方都可以用------这种就是全局变量
+		var a;
+		function aaa()
+		{
+			a=12;
+		}
+		function bbb()
+		{
+			alert(a);
+		}
+		aaa();
+		bbb();
+	</script>
+</head>
+<body>
+
+</body>
+</html>
